@@ -1,0 +1,15 @@
+## [<](README.md) Rust
+
+Rust jest stosunkowo nowym językiem programowania ale zyskuje bardzo dużą popularność wśród programistów dzięki jego szybkości oraz przyjemnego i nieskomplikowanej składni. Jest dużo łatwiejszy niż C++ przy podobnej prędkości, ponieważ oba języki są kompilowane go asembly.
+W odróżnieniu od C++ język ten posiada swój garbage-collector co sprawia że kod jest bezpieczniejszy, posiada także swój package manager - cargo.
+
+Przez to że język jest nowy, i dopiero zostaje wdrożony w systemach niektórych firm, narazie bardzo ciężko jest znaleźć pracę z Rustem jako głównym językiem programowania.
+
+### Analiza SWOT
+
+| Mocne strony | Słabe strony | Szanse | Zagrożenia |
+| :----------: | :----------: | :----: | :--------: |
+| Oferuje precyzyjną kontrolę nad zasobami systemowymi, umożliwiając efektywne wykorzystanie pamięci i procesora. | Rygorystyczne kontrole w czasie kompilacji Rusta i unikalny model własności mogą stanowić wyzwanie dla nowych użytkowników | Rust doskonale nadaje się do programowania na poziomie systemu, takiego jak systemy operacyjne, systemy wbudowane i aplikacje o krytycznym znaczeniu dla wydajności | Rust stoi w obliczu konkurencji ze strony uznanych języków programowania systemowego, takich jak C i C++, które mają długotrwałe społeczności, dojrzałe ekosystemy i rozległe istniejące bazy kodu |
+| System własności Rust gwarantuje bezpieczeństwo pamięci i zapobiega typowym błędom, takim jak dereferencje wskaźnika null | Czasy kompilacji Rusta mogą być dłuższe w porównaniu do innych języków, szczególnie w przypadku dużych baz kodu | Zdolność Rusta do kompilacji do WebAssembly otwiera możliwości tworzenia wysokowydajnych aplikacji internetowych i uruchamiania kodu Rusta w przeglądarce | Złożoność uczenia się języka Rust i integrowania go z istniejącymi systemami może zniechęcić niektórych programistów i organizacje do jego przyjęcia. |
+| Rust zapewnia solidne wsparcie dla współbieżności poprzez swój system własności, który eliminuje wyścigi danych w czasie kompilacji | Ekosystem Rust, choć rozwija się, nie jest tak dojrzały ani rozbudowany jak ekosystemy starszych języków, takich jak Python, JavaScript czy C++ | Skupienie się na bezpieczeństwie pamięci i współbieżności bez garbage collectora sprawia, że Rust jest doskonałym wyborem dla aplikacji o krytycznym znaczeniu dla bezpieczeństwa | Szybkie zmiany w technologii i pojawienie się nowych języków programowania o podobnych celach (np. Go, Zig) mogą stanowić wyzwanie dla rozwoju i przyjęcia Rusta |
+| Rust zawiera nowoczesne funkcje programistyczne, takie jak dopasowywanie wzorców, wnioskowanie o typie i potężny system makr | Ścisłe zasady dotyczące własności, pożyczania i czasu życia mogą czasami sprawić, że pisanie niektórych typów kodu będzie bardziej złożone niż w innych językach | Ponieważ firmy poszukują bezpieczniejszych i bardziej niezawodnych alternatyw dla języków C i C++, Rust ma potencjał | Utrzymanie wzrostu społeczności i ekosystemu ma kluczowe znaczenie. Jakiekolwiek spowolnienie działań rozwojowych, wkładu lub wsparcia społeczności może wpłynąć na dynamikę Rusta |
